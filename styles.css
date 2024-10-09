@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2px;
+    background-color: #2b2b2b;
+    color: rgb(255, 255, 255);
+}
+
+#anbefalt {
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-right: 20px;
+    background-color: #f5c518;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+  }
+  
+  #searchInput {
+    width: 50%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
+    background-color: rgb(192, 255, 255);
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f5c518;
+  }
+
+#movieResultsc{
+    margin-top: 10px;
+}
+
+#recommendedMovies {
+    margin-top: 60px;
+}
+
+.movie {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #f5c518;
+    border-radius: 20px;
+    color: black;
+}
+
+.movie img {
+    max-width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
